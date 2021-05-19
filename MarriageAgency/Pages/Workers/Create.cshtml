@@ -1,0 +1,64 @@
+@page
+@model MarriageAgency.Pages_Workers.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Worker</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Worker.NameSurname" class="control-label"></label>
+                <input asp-for="Worker.NameSurname" class="form-control" />
+                <span asp-validation-for="Worker.NameSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.Gender" class="control-label"></label>
+                <input asp-for="Worker.Gender" class="form-control" />
+                <span asp-validation-for="Worker.Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.Age" class="control-label"></label>
+                <input asp-for="Worker.Age" class="form-control" />
+                <span asp-validation-for="Worker.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.Phone" class="control-label"></label>
+                <input asp-for="Worker.Phone" class="form-control" />
+                <span asp-validation-for="Worker.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.Address" class="control-label"></label>
+                <input asp-for="Worker.Address" class="form-control" />
+                <span asp-validation-for="Worker.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.Passport" class="control-label"></label>
+                <input asp-for="Worker.Passport" class="form-control" />
+                <span asp-validation-for="Worker.Passport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Worker.PostID" class="control-label"></label>
+                <input asp-for="Worker.PostID" class="form-control" />
+                <span asp-validation-for="Worker.PostID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
