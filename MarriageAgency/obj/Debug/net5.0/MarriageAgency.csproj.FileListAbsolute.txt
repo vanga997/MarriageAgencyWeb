@@ -171,3 +171,8 @@ C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug
 C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Positions\Details.cshtml.g.cs
 C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Positions\Edit.cshtml.g.cs
 C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Positions\Index.cshtml.g.cs
+C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Workers\Create.cshtml.g.cs
+C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Workers\Delete.cshtml.g.cs
+C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Workers\Details.cshtml.g.cs
+C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Workers\Edit.cshtml.g.cs
+C:\Users\79686\Desktop\WebMarriageAgency\MarriageAgency\MarriageAgency\obj\Debug\net5.0\Razor\Pages\Workers\Index.cshtml.g.cs
